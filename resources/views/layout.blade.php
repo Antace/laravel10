@@ -21,7 +21,8 @@
             <div class="navbar-nav">
               <a class="nav-link" aria-current="page" href="/">Home</a>
               <a class="nav-link" href="{{route('blog')}}">Blog</a>
-              <a class="nav-link" href="/about">About Us</a>
+              <a class="nav-link" href="{{route('about')}}">About Us</a>
+              
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
             </div>
           </div>
