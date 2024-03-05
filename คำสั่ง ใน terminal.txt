@@ -1,0 +1,19 @@
+คำสั่ง ใน terminal
+php artisan serve สตาร์ท serve
+cls เคลียร์ terminal
+php artisan make:controler ตามด้วยชื่อController  สร้าง Controller
+
+php artisan make:model ตามด้วยชื่อModel -m ชื่อmodel ต้องเริ่มด้วยตัวพิมพ์ใหญ่
+** php artisan make:model Blog -m
+
+php artisan migrate อัพ migration ขึ้น database
+
+///////////////กรณีนี้ใช้กับการเพิ่มข้อมูลใน Database แบบสุ่ม////////////////////////
+php artisan make:factory ตามด้วยชื่อModel+Factory
+** php artisan make:factory BlogFactory
+
+php artisan make:seeder ตามด้วยชื่อModel+Seeder
+**php artisan make:seeder BlogSeeder
+
+php artisan db:seed
+///////////////กรณีนี้ใช้กับการเพิ่มข้อมูลใน Database แบบสุ่ม////////////////////////
